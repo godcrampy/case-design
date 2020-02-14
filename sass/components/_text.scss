@@ -16,3 +16,21 @@
 .text {
   line-height: 36px;
 }
+
+ul {
+  margin: 12px;
+
+  li {
+    line-height: 24px;
+    list-style: disc;
+  }
+}
+
+ol {
+  margin: 12px;
+
+  li {
+    line-height: 24px;
+    list-style: decimal;
+  }
+}
