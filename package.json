@@ -1,7 +1,7 @@
 {
   "name": "case-design",
   "version": "1.0.0",
-  "description": "A thoughtful design language",
+  "description": "A Thoughtful Design Language",
   "repository": "https://github.com/godcrampy/case-design",
   "scripts": {
     "sass": "sass --watch sass/case.scss ./styles/main.css",
