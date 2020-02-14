@@ -1,0 +1,16 @@
+{
+  "name": "case-design",
+  "version": "1.0.0",
+  "description": "A thoughtful design language",
+  "repository": "https://github.com/godcrampy/case-design",
+  "scripts": {
+    "sass": "sass --watch sass/case.scss ./styles/main.css",
+    "serve": "serve"
+  },
+  "author": "Sahil Bondre <sahilbondre@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.25.0",
+    "serve": "^11.3.0"
+  }
+}

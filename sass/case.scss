@@ -1,0 +1,28 @@
+@import "./reset";
+@import "./fonts";
+
+$dark: #181818;
+
+body {
+  padding: 100px 15%;
+  font-size: 18px;
+  color: $dark;
+  font-family: $sans;
+
+  .button {
+    margin: 5px;
+    background-color: white;
+    font-weight: bold;
+    border: 4px solid $dark;
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    transition: all ease-out 0.2s;
+    border-radius: 25px;
+
+    &:hover {
+      color: white;
+      background-color: $dark;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "montserrat";
+  src: local("montserrat"), url(../assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "playfair";
+  src: local("playfair"), url(../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+
+$serif: "playfair";
+$sans: "montserrat";
