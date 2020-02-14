@@ -1,66 +1,19 @@
-@import "./reset";
-@import "./fonts";
+@import "reset";
+@import "fonts";
+@import "colors";
 
-$dark: #181818;
-$grey: #454545;
+@import "components/button";
+@import "components/link";
+@import "components/text";
 
 body {
   padding: 100px 15%;
   font-size: 18px;
-  color: $dark;
   font-family: $sans;
   font-size: 18px;
   margin: 12px;
 
   ::selection {
-    background-color: yellow;
-  }
-
-  a {
-    background-color: yellow;
-    font-weight: bold;
-    color: $dark;
-    text-decoration: none;
-    border-bottom: 2px solid $dark;
-    padding: 2px;
-
-    transition: all ease-out 0.2s;
-
-    &:hover {
-      border-bottom: 6px solid $dark;
-    }
-  }
-
-  .title {
-    font-size: 60px;
-    font-family: $serif;
-    color: $dark;
-    margin: 12px;
-  }
-
-  .subtitle {
-    margin: 12px;
-    font-size: 36px;
-    color: $grey;
-  }
-
-  .text {
-    line-height: 36px;
-  }
-
-  .button {
-    margin: 12px;
-    background-color: white;
-    border: 2px solid $dark;
-    width: 250px;
-    height: 50px;
-    font-size: 24px;
-    transition: all ease-out 0.2s;
-    border-radius: 12px;
-
-    &:hover {
-      // color: white;
-      background-color: $dark;
-    }
+    background-color: $highlight;
   }
 }

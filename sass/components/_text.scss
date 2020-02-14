@@ -1,0 +1,18 @@
+@import "../colors";
+
+.title {
+  font-size: 60px;
+  font-family: $serif;
+  color: $dark;
+  margin: 12px;
+}
+
+.subtitle {
+  margin: 12px;
+  font-size: 36px;
+  color: $grey;
+}
+
+.text {
+  line-height: 36px;
+}
