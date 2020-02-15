@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: local("montserrat"), url(../assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "playfair";
+  src: local("playfair"), url(../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+.button {
+  margin: 6px;
+  background-color: #ffffff;
+  border: 2px solid #181818;
+  width: 180px;
+  height: 36px;
+  font-size: 18px;
+  transition: all ease-out 0.2s;
+  border-radius: 12px;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #181818;
+}
+.button:focus {
+  outline: none;
+}
+.button.success {
+  background-color: #41DB4C;
+  border: none;
+}
+.button.success:hover {
+  color: #ffffff;
+  background-color: #181818;
+}
+.button.success {
+  background-color: #41DB4C;
+  border: none;
+  color: #ffffff;
+}
+.button.success:hover {
+  color: #ffffff;
+  background-color: #181818;
+}
+.button.danger {
+  background-color: #FF3F42;
+  color: #ffffff;
+  border: none;
+}
+.button.danger:hover {
+  color: #ffffff;
+  background-color: #181818;
+}
+
+a {
+  background-color: yellow;
+  font-weight: bold;
+  color: #181818;
+  text-decoration: none;
+  border-bottom: 2px solid #181818;
+  padding: 2px;
+  transition: all ease-out 0.2s;
+}
+a:hover {
+  border-bottom: 6px solid #181818;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "playfair";
+  color: #181818;
+  margin: 12px;
+}
+
+.subtitle {
+  margin: 12px;
+  font-size: 36px;
+  color: #454545;
+}
+
+.h1 {
+  font-size: 36px;
+  font-family: "playfair";
+  color: #181818;
+  margin: 12px;
+}
+
+.h2 {
+  font-size: 28px;
+  color: #454545;
+  margin: 12px;
+}
+
+.h3 {
+  font-size: 24px;
+  color: #181818;
+  font-weight: bold;
+  margin: 12px;
+}
+
+.h3 {
+  font-size: 24px;
+  color: #181818;
+  margin: 12px;
+}
+
+.text {
+  line-height: 24px;
+  margin: 12px;
+}
+
+ul {
+  margin: 12px;
+}
+ul li {
+  line-height: 24px;
+  list-style: disc;
+}
+
+ol {
+  margin: 12px;
+}
+ol li {
+  line-height: 24px;
+  list-style: decimal;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: local("montserrat"), url(../assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "playfair";
+  src: local("playfair"), url(../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+label input {
+  margin: 12px;
+  border: none;
+  border-bottom: 2px solid #181818;
+  font-size: 18px;
+  font-family: "playfair";
+  transition: all ease-out 0.2s;
+}
+label input:focus {
+  outline: none;
+  border-bottom: 6px solid #181818;
+}
+
+.card {
+  margin: 6px;
+  background-color: #ffffff;
+  border: 2px solid #181818;
+  width: 250px;
+  font-size: 18px;
+  padding: 24px;
+  transition: all ease-out 0.2s;
+  border-radius: 12px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  padding: 100px 15%;
+  font-size: 18px;
+  font-family: "montserrat";
+  color: #181818;
+  font-size: 18px;
+  margin: 12px;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 100px 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px 5px;
+  }
+}
+body ::selection {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=case.css.map */

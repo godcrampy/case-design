@@ -4,7 +4,8 @@
   "description": "A Thoughtful Design Language",
   "repository": "https://github.com/godcrampy/case-design",
   "scripts": {
-    "sass": "sass --watch sass/case.scss ./styles/main.css",
+    "sass": "sass --watch sass/case.scss ./css/case.css",
+    "build": "sass sass/case.scss ./css/case.min.css --style compressed",
     "serve": "serve"
   },
   "author": "Sahil Bondre <sahilbondre@gmail.com>",
