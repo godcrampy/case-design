@@ -1,0 +1,12 @@
+@import "../colors";
+
+.card {
+  margin: 6px;
+  background-color: $light;
+  border: 2px solid $dark;
+  width: 250px;
+  font-size: 18px;
+  padding: 24px;
+  transition: all ease-out 0.2s;
+  border-radius: 12px;
+}
