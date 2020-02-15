@@ -297,6 +297,24 @@ label input:focus {
   flex-wrap: wrap;
 }
 
+@font-face {
+  font-family: "montserrat";
+  src: local("montserrat"), url(../assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "playfair";
+  src: local("playfair"), url(../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+.quote {
+  font-family: "playfair";
+  padding: 18px;
+  margin: 18px;
+  font-size: 24px;
+  letter-spacing: 1.8px;
+  line-height: 36px;
+  border-left: 4px solid #181818;
+}
+
 body {
   padding: 100px 15%;
   font-size: 18px;

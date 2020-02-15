@@ -1,0 +1,12 @@
+@import "../fonts";
+@import "../colors";
+
+.quote {
+  font-family: $serif;
+  padding: 18px;
+  margin: 18px;
+  font-size: 24px;
+  letter-spacing: 1.8px;
+  line-height: 36px;
+  border-left: 4px solid $dark;
+}
