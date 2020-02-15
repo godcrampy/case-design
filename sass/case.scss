@@ -1,11 +1,14 @@
 @import "reset";
 @import "fonts";
 @import "colors";
+@import "breakpoints";
 
 @import "components/button";
 @import "components/link";
 @import "components/text";
 @import "components/form";
+@import "components/card";
+@import "components/layout";
 
 body {
   padding: 100px 15%;
@@ -15,6 +18,15 @@ body {
   font-size: 18px;
   margin: 12px;
   background-color: $light;
+
+  @media screen and (max-width: $tablet-down) {
+    padding: 100px 5%;
+  }
+
+  @media screen and (max-width: $mobile-down) {
+    padding: 20px 5px;
+  }
+
 
   ::selection {
     background-color: $highlight;
