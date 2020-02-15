@@ -6,6 +6,8 @@
 
 A Thoughtful Design Language. Case Design is a small CSS and sass library focused on clarity.
 
+[Demo](https://godcrampy.github.io/case-design/)
+
 ## Installing
 
 **npm**:
