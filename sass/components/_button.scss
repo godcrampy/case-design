@@ -1,7 +1,7 @@
 @import "../colors";
 
 .button {
-  margin: 12px;
+  margin: 6px;
   background-color: $light;
   border: 2px solid $dark;
   width: 180px;
@@ -17,5 +17,38 @@
 
   &:focus {
     outline: none;
+  }
+
+  &.success {
+    background-color: $success;
+    border: none;
+
+    &:hover {
+      color: $light;
+      background-color: $dark;
+    }
+  }
+
+
+  &.success {
+    background-color: $success;
+    border: none;
+    color: $light;
+
+    &:hover {
+      color: $light;
+      background-color: $dark;
+    }
+  }
+
+  &.danger {
+    background-color: $danger;
+    color: $light;
+    border: none;
+
+    &:hover {
+      color: $light;
+      background-color: $dark;
+    }
   }
 }
