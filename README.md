@@ -8,21 +8,13 @@ A Thoughtful Design Language. Case Design is a small CSS and sass library focuse
 
 ## Installing
 
-A step by step series of examples that tell you how to get a development env running
+**npm**:
 
-Say what the step will be
+`$ npm install case-design`
 
-```
-Give the example
-```
+**yarn**:
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+`$ yarn add case-design`
 
 ## Table of Contents
 
@@ -97,10 +89,3 @@ End with an example of getting some data out of the system or using it for a lit
 ## Authors
 
 - **Sahil Bondre** - [godcrampy](https://github.com/godcrampy)
-
-License This project is licensed under the MIT License - see the
-[LICENSE.md](LICENSE.md) file for details
-
-```
-
-```
